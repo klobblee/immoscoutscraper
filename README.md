@@ -7,6 +7,9 @@ Currently supported sites:
 - Kleinanzeigen
 - Immowelt
 
+Current status:
+- ImmobilienScout24 is currently not working reliably because the site may block automated requests with bot detection.
+
 ## What it does
 
 The script:
@@ -200,7 +203,7 @@ Only do that if you intentionally want to resend old matches.
 Some sites may block automated requests or change their HTML structure.
 
 Current behavior:
-- ImmobilienScout24 may trigger bot detection and return no results
+- ImmobilienScout24 is currently not working reliably and may trigger bot detection or return no results
 - HTML selectors on any site can break if the site changes
 
 If that happens, the script will usually log warnings instead of crashing the whole run.
