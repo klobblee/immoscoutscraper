@@ -2,3 +2,5 @@ config.yaml
 listings.db
 __pycache__/
 scrapers/__pycache__/
+.claude/
+memory/
