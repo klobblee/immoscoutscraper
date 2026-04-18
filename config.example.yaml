@@ -1,0 +1,24 @@
+telegram:
+  bot_token: "YOUR_BOT_TOKEN_HERE"
+  chat_id: "YOUR_CHAT_ID_HERE"
+
+search:
+  # City name as used in each site's URL
+  city: "Bochum" # ImmobilienScout24 & Immowelt (capitalized)
+  city_slug: "bochum" # Kleinanzeigen & Immowelt URL slug (lowercase)
+  # ImmobilienScout24: state (Bundesland) slug for the search URL
+  # Examples: nordrhein-westfalen, bayern, hamburg, berlin, hessen
+  immoscout_state: "nordrhein-westfalen"
+
+  warmmiete_only: true # skip listings identified as Kaltmiete
+  max_rent: 700 # EUR (warm/cold — depends on the listing)
+  min_size_sqm: 40 # square meters
+  min_rooms: 2.0 # number of rooms
+  # max_rooms: 4         # uncomment to add an upper limit
+
+interval_minutes: 15 # how often to check for new listings
+
+sites:
+  immoscout24: true
+  kleinanzeigen: true
+  immowelt: true
